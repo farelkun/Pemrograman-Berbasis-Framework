@@ -3,11 +3,18 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-const Hello = () => {
-  return <p>Hello</p>;
-};
+function Football() {
+  const shoot = () => {
+    alert("Farel Putra Hdiayat");
+  }
 
-ReactDOM.render(<Hello />, document.getElementById("root"));
+  return (
+    <marquee><button onClick={shoot}>Click me!</button></marquee>
+  );
+}
+
+ReactDOM.render(<Football />, document.getElementById('root'));
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
