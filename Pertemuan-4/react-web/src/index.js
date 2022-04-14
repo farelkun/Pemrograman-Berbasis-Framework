@@ -1,20 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import App from './App';
-import Test from './Test';
-import HelloComponent from './component/HelloComponent';
+// import App from './App';
+// import BlogPost from './containers/BlogPost/BlogPost';
+import ListMahasiswa from './containers/Mahasiswa/ListMahasiswa';
 import reportWebVitals from './reportWebVitals';
-import Login from './Login/Login';
-
-// ReactDOM.render(
-//     <Login/>,
-//     document.getElementById('root')
-// );
 
 ReactDOM.render(
-    <Test/>,
-    document.getElementById('root')
+  <React.StrictMode>
+    <ListMahasiswa />
+  </React.StrictMode>,
+  document.getElementById('content')
 );
 
 // If you want to start measuring performance in your app, pass a function

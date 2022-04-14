@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nama": "Xiaomi Redmi 10 RAM 6GB ROM 128GB",
+      "gambar": "/images/redmi10.jpg",
+      "stok": 5,
+      "harga": 2000000
+    },
+    {
+      "id": 2,
+      "nama": "Samsung Galaxy A03 RAM 4GB ROM 64GB",
+      "gambar": "/images/samsungao3s.jpg",
+      "stok": 6,
+      "harga": 1259000
+    },
+    {
+      "id": 3,
+      "nama": "Xiaomi Redmi Note 10 RAM 4GB ROM 64GB",
+      "gambar": "/images/note10.png",
+      "stok": 6,
+      "harga": 20000000
+    },
+    {
+      "id": 4,
+      "nama": "Realme C11 RAM 2GB ROM 32GB",
+      "gambar": "/images/c11.jpg",
+      "stok": 6,
+      "harga": 9990000
+    },
+    {
+      "id": 5,
+      "nama": "POCO X3 Pro RAM 8GB ROM 256GB",
+      "gambar": "/images/poco.jpg",
+      "stok": 6,
+      "harga": 3865000
+    }
+  ],
+  "checkout": [
+    {
+      "userId": "1",
+      "productId": 1,
+      "jumlah": "3",
+      "tgl": 1649902946047,
+      "id": 1
+    },
+    {
+      "userId": "2",
+      "productId": 2,
+      "jumlah": "2",
+      "tgl": 1649903666906,
+      "id": 5
+    }
+  ]
+}

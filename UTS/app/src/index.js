@@ -2,21 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Test from './Test';
-import HelloComponent from './component/HelloComponent';
 import reportWebVitals from './reportWebVitals';
-import Login from './Login/Login';
-
-// ReactDOM.render(
-//     <Login/>,
-//     document.getElementById('root')
-// );
+import 'bootstrap/dist/css/bootstrap.min.css'
+import MarketPage from './Market/MarketPage'
 
 ReactDOM.render(
-    <Test/>,
-    document.getElementById('root')
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
+// ReactDOM.render(<MarketPage />, document.getElementById('root'))
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

@@ -1,0 +1,22 @@
+{
+  "mahasiswa": [
+    {
+      "id": 1,
+      "nim": 180833333,
+      "nama": "Farel Putra Hidayat",
+      "alamat": "Jl. Mawar",
+      "hp": "081802023249",
+      "angkatan": 2018,
+      "status": "aktif"
+    },
+    {
+      "id": 2,
+      "nim": 140877777,
+      "nama": "Ihsan Bachtiar",
+      "alamat": "Jl. Mustika",
+      "hp": "081802023523",
+      "angkatan": 2017,
+      "status": "lulus"
+    }
+  ]
+}
