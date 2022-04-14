@@ -17,6 +17,15 @@
       "hp": "081802023523",
       "angkatan": 2017,
       "status": "lulus"
+    },
+    {
+      "id": 1649917173208,
+      "nim": "12345676",
+      "nama": "Farel",
+      "alamat": "joll",
+      "hp": "123123",
+      "angkatan": "2017",
+      "status": "aktif"
     }
   ]
 }

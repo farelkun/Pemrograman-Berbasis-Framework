@@ -18,9 +18,6 @@ class CheckoutPage extends Component {
         fetch('http://localhost:3005/checkout')
             .then(response => response.json())
             .then(myJson => {
-                // this.setState({
-                //     listCo: myJson
-                // })
                 myJson.forEach(scndJson => {
                     fetch('http://localhost:3005/products/' + scndJson.id)
                         .then(response => response.json())
@@ -69,11 +66,9 @@ class CheckoutPage extends Component {
                             </thead>
                             <tbody>
                                 {
-                                    // console.log(this.state.listCo)
                                     this.state.listCo.map(product => {
 
                                         var total = product.harga * product.jumlah;
-                                        // totalseluruh.push(total);
                                         harga += total;
                                         localStorage.setItem('total', harga)
                                         return <ListCheckout key={product.id} gambar={product.gambar} harga={product.harga * product.jumlah} nama={product.nama} id={product.id} jumlah={product.jumlah} />

@@ -16,6 +16,9 @@ import {
   MenuUnfoldOutlined,
   MenuFoldOutlined,
   UserOutlined,
+  CodeSandboxOutlined,
+  SettingOutlined,
+  TableOutlined,
   VideoCameraOutlined,
   UploadOutlined,
 } from '@ant-design/icons';
@@ -56,12 +59,12 @@ class App extends React.Component {
           <Header>
             <div className="logo" />
             <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
-            <Menu.Item key="1" icon={<UserOutlined />}>
+            <Menu.Item key="1" icon={<CodeSandboxOutlined />}>
                 <Link to='/product'>
                   products
                 </Link>
               </Menu.Item>
-              <Menu.Item key="2" icon={<VideoCameraOutlined />}>
+              <Menu.Item key="2" icon={<TableOutlined />}>
                 <Link to='/checkout-page'>
                   Checkout
 
@@ -69,13 +72,13 @@ class App extends React.Component {
               </Menu.Item>
               {
                 fakeAuth.authenticate == false ?
-                  <Menu.Item key="3" icon={<UploadOutlined />}>
+                  <Menu.Item key="3" icon={<SettingOutlined />}>
 
                     <Link to='/login'>
                       Login
 
                     </Link>
-                  </Menu.Item> : <Menu.Item key="3" icon={<UploadOutlined />}>
+                  </Menu.Item> : <Menu.Item key="3" icon={<SettingOutlined />}>
 
                     <button className='btn btn-link' onClick={fakeAuth.signout}>
                       Auth
